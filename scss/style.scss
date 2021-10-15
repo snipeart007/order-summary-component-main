@@ -1,17 +1,4 @@
-@font-face {
-    font-family: "Red Hat Display Medium";
-    src: url(/fonts/RedHatDisplay-Medium.ttf);
-}
-
-@font-face {
-    font-family: "Red Hat Display Bold";
-    src: url(/fonts/RedHatDisplay-Bold.ttf);
-}
-
-@font-face {
-    font-family: "Red Hat Display Black";
-    src: url(/fonts/RedHatDisplay-Black.ttf);
-}
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 
 * {
     margin: 0;
@@ -35,7 +22,7 @@ body {
 }
 
 .order-summary {
-    font-family: "Red Hat Display Medium";
+    font-family: "Red Hat Display";
     font-weight: 500;
     display: flex;
     flex-direction: column;
@@ -51,7 +38,7 @@ body {
 
     .summary-title {
         text-align: center;
-        font-family: "Red Hat Display Black";
+        font-family: "Red Hat Display";
         font-weight: 900;
         font-size: x-large;
         margin: 0 3rem;
@@ -94,7 +81,7 @@ body {
 
             .pricing {
                 strong {
-                    font-family: "Red Hat Display Bold";
+                    font-family: "Red Hat Display";
                     font-weight: 700;
                 }
                 h5 {
@@ -106,7 +93,7 @@ body {
 
     .proceed,
     .cancel {
-        font-family: "Red Hat Display Bold";
+        font-family: "Red Hat Display";
         font-weight: 700;
         color: hsl(223, 47%, 23%);
         font-size: 1rem;
@@ -138,7 +125,8 @@ body {
 }
 
 .attribution {
-    font-family: "Red Hat Display Bold";
+    font-family: "Red Hat Display";
+    font-weight: 700;
     font-size: 1rem;
     text-align: center;
 
