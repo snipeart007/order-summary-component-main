@@ -98,6 +98,12 @@ body {
 .order-summary .summary a {
   padding-right: 0.4rem;
   color: #3829e0;
+  -webkit-transition: ease-in-out 0.4s;
+  transition: ease-in-out 0.4s;
+}
+
+.order-summary .summary a:hover {
+  color: #1f2f56;
 }
 
 .order-summary .summary .price-box {
@@ -132,7 +138,7 @@ body {
 .order-summary .cancel {
   font-family: "Red Hat Display Bold";
   font-weight: 700;
-  color: #4b4b4b;
+  color: #1f2f56;
   font-size: 1rem;
   margin: 0.5rem 2rem;
   margin-bottom: 1rem;
@@ -140,6 +146,13 @@ body {
   border: none;
   border-radius: 0.5rem;
   background-color: transparent;
+  -webkit-transition: ease-in-out 0.4s;
+  transition: ease-in-out 0.4s;
+}
+
+.order-summary .proceed:hover,
+.order-summary .cancel:hover {
+  color: #7280a7;
 }
 
 .order-summary .proceed {
@@ -147,6 +160,13 @@ body {
   padding: 0.75rem;
   margin-bottom: 0.5rem;
   background-color: #3829e0;
+  -webkit-transition: ease-in-out 0.4s;
+  transition: ease-in-out 0.4s;
+}
+
+.order-summary .proceed:hover {
+  color: #d8d8d8;
+  background-color: #1f2f56;
 }
 
 .attribution {
@@ -157,5 +177,12 @@ body {
 
 .attribution a {
   color: #3829e0;
+  text-decoration: none;
+  -webkit-transition: ease-in-out 0.4s;
+  transition: ease-in-out 0.4s;
+}
+
+.attribution a:hover {
+  color: #1f2f56;
 }
 /*# sourceMappingURL=style.css.map */

@@ -74,6 +74,11 @@ body {
         a {
             padding-right: 0.4rem;
             color: hsl(245, 75%, 52%);
+            transition: ease-in-out 0.4s;
+
+            &:hover {
+                color: hsl(223, 47%, 23%);
+            }
         }
 
         .price-box {
@@ -103,7 +108,7 @@ body {
     .cancel {
         font-family: "Red Hat Display Bold";
         font-weight: 700;
-        color: #4b4b4b;
+        color: hsl(223, 47%, 23%);
         font-size: 1rem;
         margin: 0.5rem 2rem;
         margin-bottom: 1rem;
@@ -111,6 +116,11 @@ body {
         border: none;
         border-radius: 0.5rem;
         background-color: transparent;
+        transition: ease-in-out 0.4s;
+
+        &:hover {
+            color: hsl(224, 23%, 55%);
+        }
     }
 
     .proceed {
@@ -118,6 +128,12 @@ body {
         padding: 0.75rem;
         margin-bottom: 0.5rem;
         background-color: hsl(245, 75%, 52%);
+        transition: ease-in-out 0.4s;
+
+        &:hover {
+            color: rgb(216, 216, 216);
+            background-color: hsl(223, 47%, 23%);
+        }
     }
 }
 
@@ -128,5 +144,11 @@ body {
 
     a {
         color: hsl(245, 75%, 52%);
+        text-decoration: none;
+        transition: ease-in-out 0.4s;
+
+        &:hover {
+            color: hsl(223, 47%, 23%);
+        }
     }
 }
