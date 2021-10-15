@@ -1,0 +1,161 @@
+@font-face {
+  font-family: "Red Hat Display Medium";
+  src: url(/fonts/RedHatDisplay-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Red Hat Display Bold";
+  src: url(/fonts/RedHatDisplay-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Red Hat Display Black";
+  src: url(/fonts/RedHatDisplay-Black.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  background-image: url(/images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-color: #e0e8ff;
+  background-size: 100% 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.order-summary {
+  font-family: "Red Hat Display Medium";
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 440px;
+  border-radius: 1rem;
+  background-color: #f5f7ff;
+}
+
+.order-summary .image-hero {
+  margin-bottom: 2rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.order-summary .summary-title {
+  text-align: center;
+  font-family: "Red Hat Display Black";
+  font-weight: 900;
+  font-size: x-large;
+  margin: 0 3rem;
+}
+
+.order-summary .description {
+  text-align: center;
+  margin: 0.5rem 2rem;
+}
+
+.order-summary .summary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0.5rem 4.5rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0.75rem;
+  padding: 0.8rem 0.45rem;
+  background-color: rgba(224, 232, 255, 0.35);
+}
+
+.order-summary .summary a {
+  padding-right: 0.4rem;
+  color: #3829e0;
+}
+
+.order-summary .summary .price-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.order-summary .summary .price-box img {
+  border-radius: 25%;
+  margin-left: 0.25rem;
+  margin-right: 0.5rem;
+}
+
+.order-summary .summary .price-box .pricing strong {
+  font-family: "Red Hat Display Bold";
+  font-weight: 700;
+}
+
+.order-summary .summary .price-box .pricing h5 {
+  color: #868686;
+}
+
+.order-summary .proceed,
+.order-summary .cancel {
+  font-family: "Red Hat Display Bold";
+  font-weight: 700;
+  color: #4b4b4b;
+  font-size: 1rem;
+  margin: 0.5rem 2rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: transparent;
+}
+
+.order-summary .proceed {
+  color: white;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  background-color: #3829e0;
+}
+
+.attribution {
+  font-family: "Red Hat Display Bold";
+  font-size: 1rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3829e0;
+}
+/*# sourceMappingURL=style.css.map */
