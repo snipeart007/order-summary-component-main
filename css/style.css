@@ -10,7 +10,7 @@ body {
 }
 
 body {
-  background-image: url(/images/pattern-background-mobile.svg);
+  background-image: url(/images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   background-color: #e0e8ff;
   background-size: 100% 60%;
